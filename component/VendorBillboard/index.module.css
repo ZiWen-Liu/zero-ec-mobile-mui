@@ -1,0 +1,50 @@
+.shopInfo {
+  position: relative;
+  background-color: #ffffff;
+}
+.bgImg {
+  height: 160px;
+  width: 100%;
+  background-size: cover;
+  background-position: 50%;
+}
+.bg {
+  position: relative;
+}
+.logoImg {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  right: 16px;
+  bottom: 0px;
+  border-radius: 10px;
+  transform: translateY(50%);
+  border: 2px solid #fff;
+  z-index: 1;
+}
+.logoImg img {
+  margin: -1px;
+  /* clean img border */
+
+  border-radius: 10px;
+  width: 66px;
+  height: 66px;
+  object-fit: cover;
+}
+.text {
+  padding: 12px 12px 8px;
+  background: #fff;
+}
+.shopTitle {
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.38px;
+  margin-bottom: 8px;
+  max-width: calc(100vw - 32px - 64px - 16px);
+}
+.labels {
+  display: flex;
+  margin-top: 11px;
+}

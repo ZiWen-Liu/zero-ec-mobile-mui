@@ -1,0 +1,46 @@
+.selector {
+  background: #f3f3f3;
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  padding: 3px;
+  z-index: 1;
+  margin: 8px 12px 0 12px;
+}
+
+.selector_item {
+  display: inline-block;
+  text-align: center;
+  padding: 9px 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.selector_item_active {
+  position: absolute;
+  border-radius: 100px;
+  background-color: #ffffff;
+  top: 3px;
+  bottom: 3px;
+  left: 0;
+  z-index: 0;
+  transition: transform 0.3s;
+}
+
+.selectorItem {
+  display: flex;
+  align-items: center;
+}
+
+.selectorItem_text {
+  display: inline-block;
+}
+
+.selectorItem_text.prefix {
+  margin-left: 3px;
+}
+
+.selectorItem_text.suffix {
+  margin-right: 3px;
+}

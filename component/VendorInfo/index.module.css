@@ -1,0 +1,43 @@
+.vendorInfo {
+  background-color: #fff;
+}
+
+.vendorInfo_image {
+  min-height: calc(154 * 100vw / 375);
+  padding-top: 120px;
+  background: 50% / cover no-repeat;
+  display: block;
+  position: relative;
+}
+
+.vendorInfo_logo {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  right: 16px;
+  bottom: 0;
+  border-radius: 10px;
+  transform: translateY(50%);
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+.vendorInfo_text {
+  padding: 12px 12px 8px;
+}
+
+.vendorInfo_title {
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.38px;
+  margin-bottom: 8px;
+  max-width: calc(100vw - 112px);
+}
+
+@media (min-width: 750px) {
+  .vendorInfo_image {
+    min-height: calc(154 * 750px / 375);
+  }
+}

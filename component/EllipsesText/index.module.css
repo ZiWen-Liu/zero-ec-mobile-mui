@@ -1,0 +1,52 @@
+/**扩大点击范围 */
+.ellipsesContainer {
+  position: relative;
+  overflow: hidden;
+  word-break: break-word;
+  width: 100%;
+  line-height: 18px;
+  font-size: 14px;
+  color: #666666;
+  max-height: 54px;
+  transition: all 0.3s;
+  padding-right: 13px;
+  box-sizing: border-box;
+}
+.ellipsesTag {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.pointContainer {
+  display: flex;
+}
+.gradient {
+  display: inline-block;
+  height: auto;
+  width: 50px;
+  background: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0));
+}
+.point {
+  display: inline-block;
+  letter-spacing: 2px;
+  background-color: #fff;
+}
+.icon {
+  position: relative;
+  display: inline-flex;
+  transition: all 0.3s;
+}
+.icon:before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  bottom: -15px;
+  left: -15px;
+}
+.unflod {
+  transform: rotate(-180deg);
+}

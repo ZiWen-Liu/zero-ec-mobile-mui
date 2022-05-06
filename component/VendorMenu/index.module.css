@@ -1,0 +1,83 @@
+.more {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+}
+.more > * {
+  box-sizing: border-box;
+}
+.moredish {
+  padding: 0 0 0 16px;
+  margin: 14px 0;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+@media screen and (min-width: 749px) {
+  .moredish {
+    width: 50%;
+  }
+}
+.moreheader {
+  border-radius: 10px;
+  height: 64px;
+  width: 64px;
+  min-height: 64px;
+  min-width: 64px;
+}
+.tag {
+  top: 3px;
+  left: 19px;
+  font-size: 10px;
+  padding: 3px;
+}
+.moreContent {
+  position: relative;
+  padding: 0 8px;
+  width: 100%;
+  word-wrap: break-word;
+  border-radius: 0;
+}
+.moreTitle {
+  padding-top: 2px;
+  min-height: 46px;
+  max-width: 85%;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.prices {
+  margin: 0;
+}
+.price {
+  font-size: 15px;
+}
+.originPrice {
+  font-size: 12px;
+}
+.moreCart {
+  bottom: -4px;
+  right: 21px;
+}
+.bottomLine {
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.listViewDefaultBg {
+  background-size: 32px, 100%;
+}
+.soldOutModal {
+  margin-left: 16px;
+  border-radius: 10px;
+  width: calc(68%);
+}
+.dishInfoContainer {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}

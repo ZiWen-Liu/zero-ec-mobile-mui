@@ -1,0 +1,42 @@
+.filterContainer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 12px;
+  margin-bottom: 6px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.itemGroup {
+  overflow-x: scroll;
+  touch-action: auto;
+  display: inline-block;
+}
+
+.filterItemBox {
+  margin-right: 8px;
+  display: inline-block;
+  background: #f7f7f7;
+  border-radius: 100px;
+  height: 32px;
+  min-width: 44px;
+  line-height: 16px;
+  text-align: center;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 13px;
+  color: #333;
+  cursor: pointer;
+}
+
+.active {
+  background: #0a72ba;
+  color: #ffffff;
+}
+
+.filterItemBox:last-child {
+  margin-right: 0;
+}

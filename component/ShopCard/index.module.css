@@ -1,0 +1,16 @@
+.shopCard {
+  margin: 12px;
+  cursor: pointer;
+}
+
+.shopCard .shopCard_image {
+  padding-top: 120px;
+  background: 50% / cover no-repeat;
+  border-radius: 5px;
+}
+
+.shopCard .shopCard_title {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 4px;
+}

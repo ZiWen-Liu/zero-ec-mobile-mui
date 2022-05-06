@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 70px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.item_group {
+  overflow-x: scroll;
+  touch-action: auto;
+  display: inline-block;
+}
+
+.container .cuisines_item {
+  width: 50px;
+  cursor: pointer;
+  margin-right: 18px;
+  display: inline-block;
+}
+.container .cuisines_item:last-child {
+  margin-right: 15px;
+}
+
+.container .cuisines_item:first-child {
+  margin-left: 15px;
+}
+
+.container .cuisines_item .cuisines_item_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cuisines_item_image {
+  width: 50px;
+  height: 50px;
+  font-size: 12px;
+}
+.cuisines_item_text {
+  text-align: center;
+  font-size: 12px;
+  transform: scale(0.83, 0.83);
+  padding-top: 6px;
+  padding-bottom: 16px;
+  color: #333;
+}
+.iconactive {
+  border: 2px solid #0a72ba;
+}
+
+.textactive {
+  color: #0a72ba !important;
+  font-weight: 600;
+}
+
+.cuisines_item_text_white {
+  text-align: center;
+  font-size: 12px;
+  transform: scale(0.83, 0.83);
+  padding-top: 6px;
+  padding-bottom: 16px;
+  color: #fff;
+}

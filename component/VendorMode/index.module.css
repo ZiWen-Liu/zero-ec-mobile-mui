@@ -1,0 +1,66 @@
+.item {
+  color: #000000;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.item.isActive {
+  color: #ffffff;
+}
+.item_mainText {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+.item_subText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 6px;
+}
+.buttonGroups {
+  display: flex;
+  align-items: center;
+  padding: 0 12px 8px 12px;
+  background-color: #ffffff;
+}
+.tab {
+  flex: 1;
+  background-color: #ffffff;
+}
+.tab_container {
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+}
+.tab_item {
+  flex: 1;
+  border-right: 1px solid #000000;
+}
+.tab_item:last-child {
+  border-right: none;
+}
+.tab_item.isActive {
+  background-color: #000000;
+  border-right: none;
+}
+.dropdownHeader_right {
+  cursor: pointer;
+  font-style: 'normal';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #0a72ba;
+}
+.odPickupItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

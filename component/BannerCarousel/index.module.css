@@ -1,0 +1,29 @@
+.bannerItem {
+  padding-top: 134px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: 50%/100% no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.swiperSlide {
+  width: 300px;
+}
+
+.pagination {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  border-radius: 12px;
+  padding: 2px 8px;
+  bottom: 8px;
+  right: 8px;
+}
+
+.pagination_text {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 13px;
+  transform: scale(0.91);
+}
